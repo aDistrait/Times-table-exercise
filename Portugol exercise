@@ -1,0 +1,22 @@
+//Exercicio de lógica de programação
+//Autor: Ana Carolina Vieira
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro contador,limite,resultado,insira
+
+		contador = 0
+		limite = 10
+		escreva("Escoha de 1 à 10, qual tabuada gostaria de visualizar? " +"\n" +"Sua escolha é: ")
+		leia(insira)
+
+		faca{
+			resultado = insira * contador
+			escreva(+insira +" X " + contador +" = " + resultado +"\n")
+			contador ++
+		}enquanto( contador <=limite)
+	}
+}
